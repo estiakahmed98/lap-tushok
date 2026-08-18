@@ -1,4 +1,4 @@
-# ঘরকাব্য Product JSON Guide
+# Rasel Birds of eden Product JSON Guide
 
 নতুন পণ্য যোগ করতে `lib/products.json` ফাইলে নিচের object-টি কপি করে array-এর শেষে বসান। আগের object-এর পরে comma দিতে হবে।
 

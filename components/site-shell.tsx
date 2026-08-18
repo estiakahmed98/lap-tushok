@@ -11,7 +11,7 @@ export function Header() {
     <div className="announcement">সারাদেশে হোম ডেলিভারি <span>•</span> ১,৫০০ টাকার বেশি অর্ডারে ডেলিভারি ফ্রি</div>
     <div className="nav-wrap">
       <button className="icon-button mobile-menu" aria-label={open ? 'মেনু বন্ধ করুন' : 'মেনু খুলুন'} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
-      <Link href="/" className="wordmark"><span>ঘর</span>কাব্য<small>আরামে বোনা গল্প</small></Link>
+      <Link href="/" className="wordmark"><span>Rasel</span> Birds of eden<small>আরামে বোনা গল্প</small></Link>
       <nav className={open ? 'nav-links open' : 'nav-links'} aria-label="প্রধান নেভিগেশন">
         <Link href="/products" onClick={() => setOpen(false)}>সব পণ্য</Link><Link href="/products?category=কাঁথা" onClick={() => setOpen(false)}>কাঁথা</Link><Link href="/products?category=বেডশিট" onClick={() => setOpen(false)}>বেডশিট</Link><Link href="/products?category=লেপ" onClick={() => setOpen(false)}>লেপ</Link><Link href="/products?category=তোষক" onClick={() => setOpen(false)}>তোষক</Link><Link href="/about" onClick={() => setOpen(false)}>আমাদের গল্প</Link>
       </nav>
@@ -21,7 +21,7 @@ export function Header() {
 }
 
 export function Footer() {
-  return <footer className="footer"><div className="footer-grid"><div><div className="wordmark footer-mark"><span>ঘর</span>কাব্য<small>আরামে বোনা গল্প</small></div><p className="footer-copy"><span>বাংলার ঘরের জন্য যত্নে তৈরি আরামের আয়োজন—</span><span>কাঁথা, বেডশিট, লেপ ও তোষকে নিশ্চিন্ত ঘুমের সঙ্গী।</span></p></div><div><p className="eyebrow">দ্রুত লিংক</p><Link href="/products">সব পণ্য</Link><Link href="/about">আমাদের গল্প</Link><Link href="#delivery">ডেলিভারি ও রিটার্ন</Link></div><div><p className="eyebrow">অর্ডার করতে কল করুন</p><a className="footer-phone" href="tel:+8801700000000"><Phone /> ০১৭০০–০০০০০০</a><p>প্রতিদিন সকাল ৯টা – রাত ১০টা<br />ঢাকা, বাংলাদেশ</p></div></div><div className="footer-bottom"><span>© ২০২৬ ঘরকাব্য</span><span>দেশীয় কারিগর ও উপকরণে তৈরি</span></div></footer>
+  return <footer className="footer"><div className="footer-grid"><div><div className="wordmark footer-mark"><span>Rasel</span> Birds of eden<small>আরামে বোনা গল্প</small></div><p className="footer-copy"><span>বাংলার ঘরের জন্য যত্নে তৈরি আরামের আয়োজন—</span><span>কাঁথা, বেডশিট, লেপ ও তোষকে নিশ্চিন্ত ঘুমের সঙ্গী।</span></p></div><div><p className="eyebrow">দ্রুত লিংক</p><Link href="/products">সব পণ্য</Link><Link href="/about">আমাদের গল্প</Link><Link href="#delivery">ডেলিভারি ও রিটার্ন</Link></div><div><p className="eyebrow">অর্ডার করতে কল করুন</p><a className="footer-phone" href="tel:+8801700000000"><Phone /> ০১৭০০–০০০০০০</a><p>প্রতিদিন সকাল ৯টা – রাত ১০টা<br />ঢাকা, বাংলাদেশ</p></div></div><div className="footer-bottom"><span>© ২০২৬ Rasel Birds of eden</span><span>দেশীয় কারিগর ও উপকরণে তৈরি</span></div></footer>
 }
 
 export function ProductCard({ product }: { product: Product }) {
