@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="hero-media">
             <img
-              src="/public/Assets/hero shope.jpeg"
+              src="Assets/hero shope.jpeg"
               alt="পরিপাটি ও আরামদায়ক শোবার ঘর"
             />
           </div>
