@@ -32,8 +32,13 @@ export function Header() {
           {open ? <X /> : <Menu />}
         </button>
         <Link href="/" className="wordmark">
-          <span className="mr-2">Rasel </span> Birds of eden
-          <small>আরামে বোনা গল্প</small>
+          <span className="brand-logo" aria-hidden="true">
+            <img src="/logo.png" alt="" />
+          </span>
+          <span className="brand-copy">
+            <span className="brand-name"><strong>Rasel</strong> Birds of eden</span>
+            <small>আরামে বোনা গল্প</small>
+          </span>
         </Link>
         <nav
           className={open ? "nav-links open" : "nav-links"}
@@ -78,8 +83,13 @@ export function Footer() {
       <div className="footer-grid">
         <div>
           <div className="wordmark footer-mark">
-            <span className="mr-2">Rasel</span> Birds of eden
-            <small>আরামে বোনা গল্প</small>
+            <span className="brand-logo" aria-hidden="true">
+              <img src="/logo.png" alt="" />
+            </span>
+            <span className="brand-copy">
+              <span className="brand-name"><strong>Rasel</strong> Birds of eden</span>
+              <small>আরামে বোনা গল্প</small>
+            </span>
           </div>
           <p className="footer-copy">
             <span>বাংলার ঘরের জন্য যত্নে তৈরি আরামের আয়োজন—</span>
