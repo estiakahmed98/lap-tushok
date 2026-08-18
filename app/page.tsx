@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="hero-media">
             <img
-              src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?auto=format&fit=crop&w=1500&q=90"
+              src="/public/Assets/hero shope.jpeg"
               alt="পরিপাটি ও আরামদায়ক শোবার ঘর"
             />
           </div>

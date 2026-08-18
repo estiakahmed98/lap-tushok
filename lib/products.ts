@@ -1,6 +1,13 @@
 import productData from './products.json'
 
-export type ProductCategory = 'কাঁথা' | 'বেডশিট' | 'লেপ' | 'তোষক'
+export type ProductCategory =
+  | 'কাঁথা'
+  | 'বেডশিট'
+  | 'লেপ'
+  | 'তোষক'
+  | 'ম্যাট্রেস'
+  | 'জাজিম'
+  | 'বালিশ'
 
 export type Product = {
   id: string

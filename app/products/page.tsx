@@ -5,7 +5,16 @@ import { ArrowRight } from 'lucide-react'
 import { Footer, Header, ProductCard } from '@/components/site-shell'
 import { products, type ProductCategory } from '@/lib/products'
 
-const filters: Array<'সব' | ProductCategory> = ['সব', 'কাঁথা', 'বেডশিট', 'লেপ', 'তোষক']
+const filters: Array<'সব' | ProductCategory> = [
+  'সব',
+  'কাঁথা',
+  'বেডশিট',
+  'লেপ',
+  'তোষক',
+  'ম্যাট্রেস',
+  'জাজিম',
+  'বালিশ',
+]
 function ProductCollection() {
   const requested = useSearchParams().get('category')
   const initial = filters.includes(requested as typeof filters[number]) ? requested as typeof filters[number] : 'সব'
